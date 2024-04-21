@@ -1,51 +1,9 @@
 [
     {
-        "database_name": "db_stock",
+        "database_name": "sekolah_beta",
         "db_host": "localhost",
-        "db_port": "8889",
+        "db_port": "3306",
         "db_username": "root",
-        "db_password": "root"
-    },
-    {
-        "database_name": "livewire",
-        "db_host": "localhos",
-        "db_port": "8889",
-        "db_username": "root",
-        "db_password": "root"
-    },
-    {
-        "database_name": "perpus",
-        "db_host": "localhost",
-        "db_port": "8889",
-        "db_username": "root",
-        "db_password": "root"
-    },
-    {
-        "database_name": "perpus_testing",
-        "db_host": "localhost",
-        "db_port": "8889",
-        "db_username": "root",
-        "db_password": "root"
-    },
-    {
-        "database_name": "sekolahbeta",
-        "db_host": "localhost",
-        "db_port": "8889",
-        "db_username": "root",
-        "db_password": "root"
-    },
-    {
-        "database_name": "sekolahbetagorm",
-        "db_host": "localhost",
-        "db_port": "8889",
-        "db_username": "root",
-        "db_password": "root"
-    },
-    {
-        "database_name": "wp",
-        "db_host": "localhost",
-        "db_port": "8889",
-        "db_username": "root",
-        "db_password": "root"
-    }
+        "db_password": ""
+    }  
 ]

@@ -55,7 +55,8 @@ func archiveDatabase(pathFile model.PathFile, fileName model.NameFile) (model.Na
 	zipWriter.Close()
 
 	return model.NameFile{
-		NameFileSql: fileName.NameFileSql,
-		NameFileZip: nameFileZip,
+		NameFileSql:      fileName.NameFileSql,
+		NameFileZip:      nameFileZip,
+		NameDatabaseFile: fileName.NameDatabaseFile,
 	}, mErr, nil
 }

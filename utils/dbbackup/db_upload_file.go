@@ -14,7 +14,7 @@ import (
 func uploadFile(pathFile *model.PathFile, fileName model.NameFile) (string, error) {
 	serviceURL := os.Getenv("WEB_SERVICE_URL")
 	bearerToken := "Bearer " + os.Getenv("WEB_SERIVCE_STATIC_KEY")
-	uploadURL := fmt.Sprintf("%s/bckp-database/%s", serviceURL, fileName.NameFileZip)
+	uploadURL := fmt.Sprintf("%s/bckp-database/%s", serviceURL, fileName.NameDatabaseFile)
 	pathNameFileZip := fmt.Sprintf("%s/%s", pathFile.PathFileZip, fileName.NameFileZip)
 	mErr := ""
 
